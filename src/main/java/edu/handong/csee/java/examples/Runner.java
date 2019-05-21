@@ -38,7 +38,7 @@ public class Runner {
 			
 			// TODO show the number of files in the path
 			File dir = new File(path);
-			System.out.println(dir.list().length);
+			System.out.println(dir.listFiles().length);
 			
 			if(verbose) {
 				
